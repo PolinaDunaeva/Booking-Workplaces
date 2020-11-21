@@ -1,0 +1,72 @@
+@import "../../helpers/variables";
+
+.home {
+  &__container {
+    margin: 40px auto;
+    width: fit-content;
+    min-width: 400px;
+    text-align: center;
+  }
+
+  &__button {
+    background-color: @white;
+    border-color: @theme-primary;
+  }
+
+  &__office {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border: solid 1px @theme-primary;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  &__letter-icon {
+    animation: spinner 6s infinite linear;
+    transform-style: preserve-3d;
+    width: 120px;
+    display: inline-block;
+  }
+
+  &__office:hover {
+    border-width: 2px;
+    border-color: @blue;
+  }
+
+  &__link {
+    color: inherit;
+  }
+
+  &__link:link {
+    text-decoration: none;
+  }
+
+  &__link:visited {
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+  }
+
+  &__link:active {
+    text-decoration: none;
+  }
+
+  &__toolbar-secondary {
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    margin: 10px;
+  }
+
+  &__icon {
+    margin-left: 3px;
+    color: @theme-primary;
+  }
+
+  &__button-toolbar {
+    color: @theme-primary !important;
+  }
+
+}

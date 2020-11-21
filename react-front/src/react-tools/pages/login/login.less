@@ -1,0 +1,72 @@
+@import '../../helpers/variables';
+
+.login {
+	&__logo {
+		width: 400px;
+	}
+	&__paper {
+		margin-top: 64px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__form {
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	&__submit {
+		margin: 16px 0 16px 0 !important;
+	}
+	&__letter-icon {
+		animation: spinner 6s infinite linear;
+		transform-style: preserve-3d;
+		width: 120px;
+		display: inline-block;
+	}
+	&__text-icon {
+		width: 280px;
+		display: inline-block;
+	}
+
+}
+
+@keyframes spinner {
+	0% {
+		-webkit-transform: rotate3d(0, 1, 0, 0deg);
+		-ms-transform: rotate3d(0, 1, 0, 0deg);
+		-o-transform: rotate3d(0, 1, 0, 0deg);
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	15% {
+		-webkit-transform: rotate3d(0, 1, 0, 180deg);
+		-ms-transform: rotate3d(0, 1, 0, 180deg);
+		-o-transform: rotate3d(0, 1, 0, 180deg);
+		transform: rotate3d(0, 1, 0, 180deg);
+	}
+	30% {
+		-webkit-transform: rotate3d(0, 1, 0, 0deg);
+		-ms-transform: rotate3d(0, 1, 0, 0deg);
+		-o-transform: rotate3d(0, 1, 0, 0deg);
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	40% {
+		-webkit-transform: rotate3d(0, 1, 0, 0deg);
+		-ms-transform: rotate3d(0, 1, 0, 0deg);
+		-o-transform: rotate3d(0, 1, 0, 0deg);
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	50% {
+		-webkit-transform: rotate3d(0, 1, 0, 0deg);
+		-ms-transform: rotate3d(0, 1, 0, 0deg);
+		-o-transform: rotate3d(0, 1, 0, 0deg);
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	100% {
+		-webkit-transform: rotate3d(0, 1, 0, 0deg);
+		-ms-transform: rotate3d(0, 1, 0, 0deg);
+		-o-transform: rotate3d(0, 1, 0, 0deg);
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+}

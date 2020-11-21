@@ -1,0 +1,18 @@
+@import '../../../../../helpers/variables.less';
+
+.Cell {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5e6f6433;
+  text-align: center;
+  background-color: white;
+  &_view {
+    border: none;
+  }
+  &_to_be_booked {
+    color: @orange!important;
+  }
+  &_booked {
+    color: @red!important;
+  }
+}

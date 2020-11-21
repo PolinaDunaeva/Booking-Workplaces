@@ -1,0 +1,56 @@
+@import "../../helpers/variables";
+
+.list-of-users {
+  &__table-top {
+    background-color: @theme-primary;
+  }
+
+  &__text{
+    font-family: Georgia, serif !important;
+    color: white !important;
+    padding-right: 46px !important;
+  }
+
+  &__link {
+    color: black !important;
+    font-family: Georgia, serif !important;
+  }
+
+  &__link:link {
+    text-decoration: none;
+  }
+
+  &__link:visited {
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+  }
+
+  &__letter-icon {
+    animation: spinner 6s infinite linear;
+    transform-style: preserve-3d;
+    width: 120px;
+    display: inline-block;
+  }
+
+  &__link:active {
+    text-decoration: none;
+  }
+
+  &__icon{
+    margin-left: 3px;
+  }
+}
+.text {
+  &__gray {
+    font-family: Georgia, serif !important;
+    background-color: @bg-gray;
+  }
+
+  &__blue {
+    background-color: @light-blue;
+    font-family: Georgia, serif !important;
+  }
+}

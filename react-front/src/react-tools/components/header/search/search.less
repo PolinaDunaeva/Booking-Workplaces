@@ -1,0 +1,42 @@
+@import "../../../helpers/variables.less";
+
+.search {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    border: 2px solid @white !important;
+    border-radius: 20px;
+    display: flex;
+    padding: 5px;
+    margin-right: 20px;
+  }
+
+  &__input:hover {
+    background-color: @theme-primary;
+  }
+
+  &__searchIcon {
+    align-self: center;
+    margin-right: 5px;
+  }
+
+  &__inputRoot {
+    color: @white !important;
+    align-self: center;
+  }
+
+  &__list {
+    padding: 0 !important;
+  }
+
+  &__popper {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid @border-gray;
+    border-radius: 5px;
+    z-index: 2000;
+    background-color: @white;
+  }
+}

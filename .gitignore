@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/public
+/build
+/dev
+/build/*
+/dev/*
+/dev-server
+
+# dependencies
+/node_modules
+react-front/node_modules
+react-front/src/**/*.css
+react-front/src/**/*.map
+react-front/build
+!react-front/src/index.css
+*.class
+*.iml
+*.properties
+
+# IDEs and editors
+/.idea
+.idea/
+/.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.eslintcache
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+pull.sh
+package-lock.json
+
+
+
+# System Files
+.DS_Store
+Thumbs.db
+/java-backend/hot-desk/target/
